@@ -1,0 +1,13 @@
+{
+  "name": "phonetic-workbench",
+  "version": "1.0.0",
+  "description": "Build custom pronunciations one sound at a time: respelling, Arpabet and ElevenLabs phoneme tags.",
+  "license": "MIT",
+  "bin": { "phonetic-workbench": "server.js" },
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "npx vercel --prod"
+  },
+  "files": ["index.html", "styles.css", "app.js", "phonetic-translator.js", "server.js", "vendor", "vercel.json"],
+  "engines": { "node": ">=18" }
+}
