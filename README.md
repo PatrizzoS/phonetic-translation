@@ -1,5 +1,7 @@
 # Phonetic Workbench
 
+Try it - https://phonetic-translation.vercel.app/
+
 Pick a sound for each letter of a word and export a respelling, Arpabet, and an ElevenLabs
 `<phoneme>` tag. Words come from a pasted list or an imported .xlsx / .csv / .txt (uses a "Word"
 column, or a sheet with "word" in its name, else the first column). Runs entirely in the browser.
